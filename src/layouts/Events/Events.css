@@ -1,0 +1,45 @@
+.events{
+  text-align: center;
+  position: relative;
+}
+
+.events-wave{
+  rotate: 180deg;
+  width: 100%;
+}
+
+.events h1{
+  display: inline-block;
+  font-family: 'Geologica';
+  font-size: 2.2rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  background-size: 0 20%;
+  background-image: var(--button-gradient);
+  background-repeat: no-repeat;
+  background-position-y: 110%;
+  transition: all 700ms ease-in-out;
+}
+
+.events .show-decoration{
+  background-size: 100% 20%;
+}
+
+.events p{
+  font-family: 'Roboto';
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+  opacity: 0.8;
+}
+
+.events-subheading{
+  padding: 0 1rem;
+}
+
+.events-cards{
+  margin: 0 clamp(3rem, 2rem + 3vw, 5rem);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "title": "Quizzical",
+    "thumbnail": "/projects/1.png",
+    "badges": [
+      {
+        "text": "Silver Medal",
+        "color": "#B6B3B3"
+      }, 
+      {
+        "text": "Web App",
+        "color": "#61DBFB"
+      }, 
+      {
+        "text": "Quiz",
+        "color": "#901616"
+      }
+    ],
+    "description": "A competetive Quiz Application featuring 4000+ questions across 24 categories. I've won a silver medal in a computer programming competition with this project.",
+    "githubLink": "https://github.com/MiksaaVegas/quizzical#readme",
+    "link": "https://resilient-bunny-c8eaf8.netlify.app/"
+  },
+  {
+    "id": 2,
+    "title": "Portfolio - MASSUM",
+    "thumbnail": "/projects/2.png",
+    "badges": [
+      {
+        "text": "Competition",
+        "color": "#ECAA0E"
+      }, 
+      {
+        "text": "Third Place",
+        "color": "#E65C1C"
+      }, 
+      {
+        "text": "Design",
+        "color": "#6616FA"
+      }
+    ],
+    "description": "A third place winning project in a portfolio competition. The unique design is the highlight.",
+    "githubLink": "https://github.com/MiksaaVegas/moePortfolioMASSUM#readme",
+    "link": "http://sosuilinden.edu.mk/massum/Portfolio/src/"
+  },
+  {
+    "id": 3,
+    "title": "Tenzies",
+    "thumbnail": "/projects/3.png",
+    "badges": [
+      {
+        "text": "Web App",
+        "color": "#61DBFB"
+      }, 
+      {
+        "text": "Game",
+        "color": "#F26100"
+      }
+    ],
+    "description": "Try to get all the dice with the same number if you can! Therefore, can you beat your Personal Best?",
+    "githubLink": "https://github.com/MiksaaVegas/tenzies#readme",
+    "link": "https://incredible-panda-4cb092.netlify.app/"
+  },
+  {
+    "id": 4,
+    "title": "Weather Widget",
+    "thumbnail": "/projects/4.png",
+    "badges": [
+      {
+        "text": "73 Icons",
+        "color": "#6616FA"
+      }, 
+      {
+        "text": "Vanilla JS",
+        "color": "#DCAA14"
+      }
+    ],
+    "description": "What's the weather like in my city? For sure here we have the most unpredicatble weather...",
+    "githubLink": "https://github.com/MiksaaVegas/weatherApp#readme",
+    "link": "https://curious-cat-d00de5.netlify.app/"
+  },
+  {
+    "id": 5,
+    "title": "Calculator",
+    "thumbnail": "/projects/5.png",
+    "badges": [
+      {
+        "text": "OOP",
+        "color": "#7F1F16"
+      }, 
+      {
+        "text": "Vanilla JS",
+        "color": "#DCAA14"
+      },
+      {
+        "text": "Math",
+        "color": "#075104"
+      }
+    ],
+    "description": "If you ever used calculator before, then you know how to use this one.",
+    "githubLink": "https://github.com/MiksaaVegas/calculator#readme",
+    "link": "https://frolicking-caramel-cca4c2.netlify.app"
+  }
+]

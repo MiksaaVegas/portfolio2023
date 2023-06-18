@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&family=Geologica:wght@300;400;600&family=Roboto&display=swap');
+
+*{
+  box-sizing: border-box;
+  outline: none;
+  user-select: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+:root{
+  --black: rgb(12, 12, 12);
+  --white: rgb(250, 250, 250);
+  --dark-blue: rgb(13, 10, 35);
+  --lavender: rgb(170, 225, 255);
+  --vivid-sky-blue: rgba(71, 202, 255, 0.4);
+  --sapphire: rgb(24, 86, 167);
+  --periwinkle: rgb(197, 187, 236);
+  
+  --button-gradient: linear-gradient(to right, #3a3def, #47d0fa);
+}
+
+html, body{
+  overflow-x: hidden;
+  background-color: var(--white);
+}

@@ -1,0 +1,8 @@
+.badge{
+  font-family: 'Geologica';
+  font-weight: 600;
+  font-size: clamp(0.7rem, 0.4rem + 1vw, 1rem);
+  color: var(--black);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
