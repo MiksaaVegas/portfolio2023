@@ -90,7 +90,7 @@ export default function Contact(){
             <a href="https://github.com/MiksaaVegas" target="_blank" rel="noopener noreferrer">
               <img src="/contact/github.svg" /> 
             </a>
-            <a href="https://github.com/MiksaaVegas" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/MiksaaVegas" target="_blank" rel="noopener noreferrer">
               <img src="/contact/twitter.svg" />
             </a>
             <a href="/contact/cv.pdf" download>

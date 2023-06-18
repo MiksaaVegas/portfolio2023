@@ -44,11 +44,7 @@ export default function Events(){
     }, {rootMargin: '-15%'})
 
     observer.observe(element)
-
-    return () => {
-      observer.unobserve(element)
-      element.classList.toggle('show-decoration')
-    }
+    element.classList.toggle('show-decoration')
   }, [])
 
   return (

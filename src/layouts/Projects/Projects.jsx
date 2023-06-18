@@ -29,11 +29,7 @@ export default function Projects(){
     }, {threshold: 0.4})
 
     observer.observe(current)
-
-    return () => {
-      observer.unobserve(current)
-      current.classList.toggle('projects-swiper--shown')
-    }
+    current.classList.toggle('projects-swiper--shown')
   }, [])
 
   return (

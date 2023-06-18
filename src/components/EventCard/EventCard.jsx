@@ -26,11 +26,7 @@ export default function EventCard(props){
     })
 
     observer.observe(current)
-
-    return () => {
-      observer.unobserve(current)
-      current.classList.toggle('eventCard--shown')
-    }
+    current.classList.toggle('eventCard--shown')
   }, [])
 
   const clickHandler = () => {
