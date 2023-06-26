@@ -1,7 +1,6 @@
-import './Events.css'
 import events from '/src/data/events.json'
-import EventCard from '../../components/EventCard/EventCard'
-import EventPreview from '../../components/EventPreview/EventPreview'
+import EventCard from '../components/EventCard'
+import EventPreview from '../components/EventPreview'
 import { useEffect, useRef, useState } from 'react'
 
 export default function Events(){
@@ -40,19 +39,19 @@ export default function Events(){
     const element = titleEl.current
 
     const observer = new IntersectionObserver(() => {
-      element.classList.toggle('show-decoration')
+      element.classList.toggle('bg-[length:100%_20%]')
     }, {rootMargin: '-15%'})
 
     observer.observe(element)
-    element.classList.toggle('show-decoration')
+    element.classList.toggle('bg-[length:100%_20%]')
   }, [])
 
   return (
-    <section className="events">
-      <img src="/wave.svg" className='events-wave' />
-      <h1 ref={titleEl}>Where I&apos;ve been 📍</h1>
-      <p className='events-subheading'>In networking, the more you give, the more you receive</p>
-      <div className="events-cards">
+    <section className="text-center relative">
+      <img src="/wave.svg" className='rotate-180 w-full' />
+      <h1 ref={titleEl} className='inline-block font-geo font-bold text-eventsHeading leading-[2.2rem] mt-16 mb-4 bg-[length:0_20%] bg-btnGradient bg-no-repeat bg-[left_110%] transition-all duration-700 ease-in-out'>Where I&apos;ve been 📍</h1>
+      <p className='py-0 px-4 font-robot text-eventsSubheading mb-16 opacity-80'>In networking, the more you give, the more you receive</p>
+      <div className="mx-eventsCards flex justify-center flex-wrap gap-20">
         {eventCardsMarkup}
       </div>
       {

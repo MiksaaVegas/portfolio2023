@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&family=Geologica:wght@300;400;600&family=Roboto&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *{
   box-sizing: border-box;
@@ -18,8 +21,6 @@
   --vivid-sky-blue: rgba(71, 202, 255, 0.4);
   --sapphire: rgb(24, 86, 167);
   --periwinkle: rgb(197, 187, 236);
-  
-  --button-gradient: linear-gradient(to right, #3a3def, #47d0fa);
 }
 
 html, body{
