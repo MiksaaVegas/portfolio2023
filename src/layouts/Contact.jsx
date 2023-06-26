@@ -135,7 +135,7 @@ export default function Contact(){
             />
             <input 
               type="submit" 
-              className={`text-[1rem] font-geo py-2 px-4 bg-periwinkle transition-all duration-200 ease-in-out resize-none mt-8 border-none cursor-pointer focus:border-none  ${isSubmitted && 'bg-green-700'} text-gray-900`} 
+              className={`text-[1rem] font-geo py-2 px-4 bg-periwinkle transition-all duration-200 ease-in-out resize-none mt-8 border-none cursor-pointer focus:border-none ${isSubmitted && '!bg-green-700'} text-gray-900`} 
               value={isSubmitted ? 'Sent ✔' : 'Dispatch!'} 
               ref={submitButton}
             />
